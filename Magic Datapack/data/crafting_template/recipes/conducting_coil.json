@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "TCT",
+        "TCT"
+    ],
+    "key": {
+        "T": {
+            "item": "minecraft:copper_block"
+        },
+        "#": {
+            "item": "minecraft:nether_star"
+        },
+		"C": {
+            "item": "minecraft:gold_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

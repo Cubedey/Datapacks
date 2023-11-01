@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "crafting_template:firewand"
+            }
+        }
+    },
+    "rewards": {
+        "function": "crafting_template:crafted_items/crafted_firewand"
+    }
+}

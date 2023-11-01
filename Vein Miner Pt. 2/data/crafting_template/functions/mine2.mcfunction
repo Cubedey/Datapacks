@@ -1,0 +1,2 @@
+function crafting_template:resetchest
+function crafting_template:mine

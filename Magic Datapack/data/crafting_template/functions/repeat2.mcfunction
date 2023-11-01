@@ -1,0 +1,5 @@
+schedule function crafting_template:repeat 5s
+execute as @a at @s if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{display:{Name:'{"text":"Beyonder","color":"gold"}',Lore:['{"text":"A Sword From Beyond.","bold":true}']},Unbreakable:1b,Enchantments:[{}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:15,Operation:0,UUID:[I;-207520915,-2065546049,-1222705303,-329290337],Slot:"mainhand"},{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:10,Operation:0,UUID:[I;-1410426886,-929740351,-2109006608,1096129165],Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:.5,Operation:0,UUID:[I;-2060118123,-35109728,-1201907188,933509828],Slot:"mainhand"}]}}}] run function crafting_template:beyonder/beyonderraycast_looprun
+execute at @e[type=item_frame,tag=mobfarm] anchored eyes positioned ^ ^ ^1 run function crafting_template:mobfarm/raycast
+execute as @e[type=item_frame,tag=altar,tag=beaconing] at @s run function crafting_template:altar/check
+execute as @e[type=item_frame,tag=altar] at @s run function crafting_template:altar/check

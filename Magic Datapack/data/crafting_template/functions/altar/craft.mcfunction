@@ -1,0 +1,1 @@
+execute as @s run data merge entity @s {Glowing:1}

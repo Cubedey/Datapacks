@@ -1,0 +1,1 @@
+execute as @a at @s anchored eyes run function crafting_template:beyonder/beyonderraycast_loop

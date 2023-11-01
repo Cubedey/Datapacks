@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#T#",
+        "TCT",
+        "#T#"
+    ],
+    "key": {
+        "T": {
+            "item": "minecraft:fire_charge"
+        },
+        "C": {
+            "item": "minecraft:nether_star"
+        },
+		"#": {
+            "item": "minecraft:lava_bucket"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

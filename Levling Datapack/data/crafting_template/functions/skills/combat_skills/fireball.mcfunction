@@ -1,0 +1,1 @@
+execute positioned ^ ^ ^1 run summon fireball ~ ~1 ~

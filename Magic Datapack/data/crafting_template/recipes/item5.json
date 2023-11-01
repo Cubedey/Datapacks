@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "TTT",
+        "#C#",
+        "###"
+    ],
+    "key": {
+        "T": {
+            "item": "minecraft:iron_sword"
+        },
+        "C": {
+            "item": "minecraft:enchanting_table"
+        },
+		"#": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

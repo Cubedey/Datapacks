@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " C ",
+        "TXT",
+        "###"
+    ],
+    "key": {
+        "T": {
+            "item": "minecraft:emerald"
+        },
+        "C": {
+            "item": "minecraft:nether_star"
+        },
+		"#": {
+            "item": "minecraft:obsidian"
+        },
+		"X": {
+            "item": "minecraft:enchanting_table"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

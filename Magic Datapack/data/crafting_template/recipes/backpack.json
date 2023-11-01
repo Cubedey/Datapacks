@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#T#",
+        "TCT",
+        "#T#"
+    ],
+    "key": {
+        "T": {
+            "item": "minecraft:leather"
+        },
+        "C": {
+            "item": "minecraft:chest"
+        },
+		"#": {
+            "item": "minecraft:string"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

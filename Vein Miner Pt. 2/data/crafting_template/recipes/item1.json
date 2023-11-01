@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#C#",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:rabbit_hide"
+			
+        },
+        "C": {
+            "item": "minecraft:cooked_rabbit"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}
